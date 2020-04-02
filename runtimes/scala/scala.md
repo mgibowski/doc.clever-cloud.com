@@ -22,7 +22,7 @@ more information on creating applications on Clever Cloud.
 ## Requirements
 
 Your application has to listen on port `8080` for worldwide connections
-(`0.0.0.0`). We set the system variable `http.port` to `8080` for you so in
+(`0.0.0.0`). We set the system variable `PORT` to `8080` for you so in
 many cases (like for play applications) you don't have anything to do.
 
 We rely on `sbt-native-packager` to run applications. This plugin provides a
